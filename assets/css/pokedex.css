@@ -84,6 +84,7 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 .pokemon .number {
@@ -144,6 +145,122 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+
+.title-detail{
+    text-align: center;
+}
+.pokedetails {
+    width: screen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.name-detail {
+    align-self: flex-start;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: .25rem;
+}
+
+.types-detail {
+    list-style: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.types-detail li {
+    border-radius: 1rem;
+}
+
+.pokedetails .detail img {
+    max-width: 100%;
+    height: 140px;
+    position: relative;
+    bottom: -30px;
+}
+
+.obs-detail {
+    background-color: #FFF;
+    border-radius: 1rem;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.abilities-detail {
+    list-style: none;
+    text-transform: capitalize;
+    padding: 0.5rem;
+    border-radius: 0 0 1rem 1rem;
+    color: white;
+}
+
+.abilities-detail li {
+    margin-bottom: 8px ;
+}
+
+.stats li {
+    border-radius: 1rem;
+    padding: 0px 6px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 1.5rem;
+    text-transform: capitalize;
+}
+
+.hp {
+    background-color: red;
+    align-self: flex-start;
+    width: 50%;
+}
+
+.attack {
+    background-color: orange;
+    min-width: 50%;
+    align-self: flex-start;
+}
+
+.defense {
+    background-color: green;
+    min-width: 50%;
+    align-self: flex-start;
+}
+
+.special-attack {
+    background-color: rgb(255, 102, 0);
+    min-width: 50%;
+    align-self: flex-start;
+}
+
+.special-defense {
+    background-color: rgb(92, 85, 156);
+    min-width: 50%;
+    align-self: flex-start;
+}
+
+.speed {
+    background-color: rgb(12, 228, 138);
+    min-width: 50%;
+    align-self: flex-start;
 }
 
 @media screen and (min-width: 380px) {
